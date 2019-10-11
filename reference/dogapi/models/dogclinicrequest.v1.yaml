@@ -1,0 +1,12 @@
+{
+  "title": "dogClinicRequest",
+  "type": "object",
+  "properties": {
+    "petOwners": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

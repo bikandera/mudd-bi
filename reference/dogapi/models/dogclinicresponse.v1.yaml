@@ -1,0 +1,7 @@
+title: dogClinicResponse
+type: object
+properties:
+  id:
+    type: array
+    items:
+      $ref: ./dogclinic.v1.yaml
