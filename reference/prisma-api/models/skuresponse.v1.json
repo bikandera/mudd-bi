@@ -1,0 +1,118 @@
+
+ { "type": "object",
+  "properties": {
+    "countrysku": {
+      "type": "object",
+      "properties": {
+        "country": {
+          "type": "string"
+        },
+        "skulist": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "SkuCode": {
+                "type": "integer"
+              },
+              "SkuName": {
+                "type": "string"
+              },
+              "SkuStatus": {
+                "type": "string"
+              },
+              "SkuActive": {
+                "type": "integer"
+              },
+              "ProductCode": {
+                "type": "integer"
+              },
+              "ProductName": {
+                "type": "string"
+              },
+              "CodeProductSubGroup": {
+                "type": "integer"
+              },
+              "CodeProductsubGroupName": {
+                "type": "string"
+              },
+              "ProductStageCode": {
+                "type": "string"
+              },
+              "ProductStageName": {
+                "type": "string"
+              },
+              "TACode": {
+                "type": "integer"
+              },
+              "TAName": {
+                "type": "string"
+              },
+              "GalenicQuantity": {
+                "type": "integer"
+              },
+              "Galenic": {
+                "type": "string"
+              },
+              "GalenicName": {
+                "type": "string"
+              },
+              "ManUnitCode": {
+                "type": "integer"
+              },
+              "ManUnitName": {
+                "type": "string"
+              },
+              "TradeForm": {
+                "type": "string"
+              },
+              "TradeFormName": {
+                "type": "string"
+              },
+              "AddDeviceCode": {
+                "type": "string"
+              },
+              "AddDeviceName": {
+                "type": "string"
+              },
+              "ATCCode": {
+                "type": "integer"
+              },
+              "ATCName": {
+                "type": "string"
+              },
+              "Strength": {
+                "type": "string"
+              },
+              "PackSize": {
+                "type": "integer"
+              },
+              "CountryPressCode": {
+                "type": "integer"
+              },
+              "CountryPressName": {
+                "type": "string"
+              },
+              "ConversionFactor": {
+                "type": "integer"
+              },
+              "BundlingFactor": {
+                "type": "integer"
+              },
+              "GalenicUOM": {
+                "type": "string"
+              },
+              "GalenicUOMName": {
+                "type": "string"
+              },
+              "ChangeTime": {
+                "type": "string",
+                "format": "date-time"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

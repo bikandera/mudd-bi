@@ -1,0 +1,46 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "prismaAPI",
+    "version": "1.0"
+  },
+  "host": "localhost:3000",
+  "schemes": [
+    "http"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "paths": {
+    "/sku": {
+      "post": {
+        "summary": "sku",
+        "tags": [],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "./models/skuresponse.v1.json"
+            }
+          }
+        },
+        "description": "Post the SKU ",
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "./models/sku.v1.json"
+            }
+          }
+        ],
+        "operationId": ""
+      },
+      "parameters": []
+    }
+  },
+  "definitions": {}
+}

@@ -1,0 +1,22 @@
+{
+  "title": "skurequest",
+  "type": "object",
+  "x-examples": {
+    "example-1": {}
+  },
+  "properties": {
+    "countrycount": {
+      "type": "integer"
+    },
+    "countrylist": {
+      "type": "object",
+      "description": "list of countries",
+      "properties": {
+        "country": {
+          "type": "array",
+          "items": {}
+        }
+      }
+    }
+  }
+}
