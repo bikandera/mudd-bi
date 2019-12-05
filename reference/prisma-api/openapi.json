@@ -33,8 +33,9 @@
             "in": "body",
             "name": "body",
             "schema": {
-              "$ref": "./models/sku.v1.json"
-            }
+              "$ref": ""
+            },
+            "description": ""
           }
         ],
         "operationId": ""

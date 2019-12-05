@@ -1,5 +1,5 @@
-
- { "type": "object",
+{
+  "type": "object",
   "properties": {
     "countrysku": {
       "type": "object",
@@ -13,7 +13,7 @@
             "type": "object",
             "properties": {
               "SkuCode": {
-                "type": "integer"
+                "type": "string"
               },
               "SkuName": {
                 "type": "string"
@@ -22,16 +22,16 @@
                 "type": "string"
               },
               "SkuActive": {
-                "type": "integer"
+                "type": "string"
               },
               "ProductCode": {
-                "type": "integer"
+                "type": "string"
               },
               "ProductName": {
                 "type": "string"
               },
               "CodeProductSubGroup": {
-                "type": "integer"
+                "type": "string"
               },
               "CodeProductsubGroupName": {
                 "type": "string"
@@ -43,13 +43,13 @@
                 "type": "string"
               },
               "TACode": {
-                "type": "integer"
+                "type": "string"
               },
               "TAName": {
                 "type": "string"
               },
               "GalenicQuantity": {
-                "type": "integer"
+                "type": "string"
               },
               "Galenic": {
                 "type": "string"
@@ -58,7 +58,7 @@
                 "type": "string"
               },
               "ManUnitCode": {
-                "type": "integer"
+                "type": "string"
               },
               "ManUnitName": {
                 "type": "string"
@@ -76,7 +76,7 @@
                 "type": "string"
               },
               "ATCCode": {
-                "type": "integer"
+                "type": "string"
               },
               "ATCName": {
                 "type": "string"
@@ -85,19 +85,19 @@
                 "type": "string"
               },
               "PackSize": {
-                "type": "integer"
+                "type": "string"
               },
               "CountryPressCode": {
-                "type": "integer"
+                "type": "string"
               },
               "CountryPressName": {
                 "type": "string"
               },
               "ConversionFactor": {
-                "type": "integer"
+                "type": "string"
               },
               "BundlingFactor": {
-                "type": "integer"
+                "type": "string"
               },
               "GalenicUOM": {
                 "type": "string"

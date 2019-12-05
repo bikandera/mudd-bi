@@ -4,9 +4,10 @@
   "x-examples": {
     "example-1": {}
   },
+  "description": "",
   "properties": {
     "countrycount": {
-      "type": "integer"
+      "type": "string"
     },
     "countrylist": {
       "type": "object",
@@ -15,6 +16,9 @@
         "country": {
           "type": "array",
           "items": {}
+        },
+        "recordcount": {
+          "type": "string"
         }
       }
     }
