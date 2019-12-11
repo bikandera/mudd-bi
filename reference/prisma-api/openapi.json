@@ -3,7 +3,7 @@
   "info": {
     "title": "prismaAPI",
     "version": "1.0"
-  },
+      },
   "host": "localhost:3000",
   "schemes": [
     "http"
@@ -38,7 +38,7 @@
             "description": ""
           }
         ],
-        "operationId": ""
+        "operationId": "sku"
       },
       "parameters": []
     }
