@@ -3,7 +3,7 @@
   "info": {
     "title": "prismaAPI",
     "version": "1.0"
-      },
+  },
   "host": "localhost:3000",
   "schemes": [
     "http"
@@ -33,7 +33,7 @@
             "in": "body",
             "name": "body",
             "schema": {
-              "$ref": ""
+              "$ref": "./models/sku.v1.json"
             },
             "description": ""
           }
